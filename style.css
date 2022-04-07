@@ -1,3 +1,47 @@
-.img500{
-    font-size: 500px;
+.titulonaranja{
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace; 
+    color: coral;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    font-style: oblique;
+}
+
+.divregular{
+   padding-left: 30px;
+   padding-right: 30px; 
+}
+
+.divplus{
+    padding-left: 550px;
+    padding-right: 550px;   
+}
+.valor{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+}
+
+
+.titulologo{
+    float: right;
+    color:gold;
+    text-align: center;
+    font-family:monospace;
+    padding-top: 5px;
+    font-weight: 600;
+    font-style: oblique;
+    padding-right: 590px;
+    text-decoration:underline;
+}
+
+.padleft{
+    padding-left: 3px;
+
 }
