@@ -36,8 +36,7 @@ p{
     font-family:monospace;
     padding-top: 5px;
     font-weight: 600;
-    font-style: oblique;
-    padding-right: 590px;
+    font-style: oblique; 
     text-decoration:underline;
 }
 
