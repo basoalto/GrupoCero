@@ -5,6 +5,10 @@
     color: coral;
 }
 
+a:hover{
+    color: rgb(9, 255, 0);    
+    opacity:0.95;
+}
 p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px;
@@ -33,7 +37,7 @@ p{
     float: right;
     color:gold;
     text-align: center;
-    font-family:monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
     padding-top: 5px;
     font-weight: 600;
     font-style: oblique; 
