@@ -9,6 +9,10 @@ a{
     color:inherit !important;
     
 }
+
+h1{
+    color: gold;
+}
 /* NAVBAR */
 .navbar-brand > img {
     width: 84px;
@@ -17,4 +21,39 @@ a{
 .navbar-main .active{
     text-decoration: underline wavy var(--color-white);
     text-underline-offset: 8px;
+}
+
+/*Redes sociales*/
+
+.icons-social-networks > a {
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s filter;
+}
+
+.icons-social-networks > a:hover{
+    filter: opacity(0.5);
+}
+.bg-facebook {
+    background-color: #023693;
+}
+
+.bg-instagram{
+    background-color: pink;
+}
+
+.photo-frame{
+    font-size: 20px;
+}
+
+/*QUIENES SOMOS*/
+.icon-service{
+    --box-size: 85px;
+    width: var(--box-size);
+    width: var(--box-size);
 }
