@@ -61,3 +61,10 @@ h1{
     width: var(--box-size);
     width: var(--box-size);
 }
+
+.portfolio-item > img{
+    transition: 0.4s transform;
+}
+.portfolio-item:hover > img {
+    transform: scale(0.96);
+}
