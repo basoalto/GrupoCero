@@ -23,6 +23,10 @@ h1{
     text-underline-offset: 8px;
 }
 
+.container > .row{
+    margin-bottom: 3rem;
+}
+
 /*Redes sociales*/
 
 .icons-social-networks > a {
