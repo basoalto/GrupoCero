@@ -45,39 +45,19 @@
     </nav>
     <!-- Información de nosotros-->
     <br>
-    <section class="row jusitify-content-around text-center">
-      <!--Titulo-->
-      <h2 class="col-12 display-4 text-capitalize mb-3">
-        ¿Quienes Somos?
-      </h2>
-      <!--Tarjetas-->
-      <!--tarjeta 1-->
-      <center>
-      <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-        <!--Icono-->
-        <img src="IMAGENES/Icons/maquina-de-coser.png" alt="" class="bg-warning bg-gradient d-inline-bloc rounded-circle mb-3 icon-service">
-        <!--Titulo-->
-        <h3 class="text-capitalize">
-          Emprendimiento Manufacturero
-        </h3>
-        <!--Descripción-->
-        <p class="text-muted">
-          En Harry's cada prenda es confeccionada a mano, con mucha dedicación y amor a los animales.
-          Nuestra fuente de inspiración siempre han sido nuestras propias mascotas, ellos fueron los 
-          propulsores de mis ideas al momento de crear las prendas, y es por ellos que sigo aquí.
-        </p>
-        <!--Btn-->
-        <a href="galeria.html" class="btn btn-outline-warning">Ver Galeria</a>
-      </article>
-      </center>
-    </section>
-    <hr>
-
-      
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="JS/javamain.js"></script>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Nombre completo del Dueno</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Nombre de la Mascota</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox">Requiere Servicio de medicion?</label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 </body>
 </html>
