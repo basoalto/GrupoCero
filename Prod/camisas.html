@@ -16,7 +16,7 @@
 </head>
 <body class="bg-light">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-black navbar-main">
+    <nav class="navbar navbar-expand-md navbar-light bg-black navbar-expand">
         <div class="container-fluid">
           <!--Branding-->
           <a  href="../index.html" class="navbar-brand">
@@ -27,51 +27,85 @@
           aria-expanded="flase" aria-label="Barra de navegación">
             <span class="navbar-toggle-icon"></span>
           </button>
-          <h1>Harry's Boutique</h1>
+          <h1 class="d-none d-lg-block col-xl-5">Harry's Boutique</h1>
           <!--Items-->
           <div class="collapse navbar-collapse" id="mainNav">
-            <div class="nav ms-auto text-warning">
-              <a href="../index.html" class="nav-link">Inicio</a>
-              <a href="../galeria.html" class="nav-link">Galeria</a>
-              <a href="../quienessomos.html" class="nav-link">¿Quienes Somos?</a>
+            <div class="nav ms-auto text-white fw-bold ">
+              <a href="../index.html" class="nav-link navtitle col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">Inicio</a>
+              <a href="../galeria.html" class="nav-link navtitle col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center ">Galeria</a>
             </div>
-            <div class="nav ms-auto text-warning">
-            <a href="../productos.html" class="nav-link active">Productos</a>
+            <div class="nav text-white fw-bold">
+              <a href="../quienessomos.html" class="nav-link navtitle col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">Conocenos</a>
             </div>
-          </div>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
-              <button class="btn btn-outline-warning" type="submit">Buscar</button>
-            </form>  
-          </div>
+            <div class="nav text-white fw-bold">
+            <a href="../productos.html" class="nav-link active navtitle col-12 col-sm-12 col-xl-12">Productos</a>
+            </div>
+          </div> 
         </div>
       </nav>
     <!-- Información de nosotros-->
-    <BR>
-    <BR>
-    <BR>
-    <BR> 
     <div class=>
    
-      <!--Titulo-->
-      <nav class="navbar navbar-dark bg-warning">
-        <!-- Navbar content -->
-        <div class="container-fluid">
-            <!--Items-->
-            <div>
-              <div class="nav ms-auto text-dark">
-                <a href="polerones.html" class="nav-link active">Polerones</a>
-                <a href="camisas.html" class="nav-link">Camisas</a>
-                <a href="arneces.html" class="nav-link">Arneses</a>
-                <a href="accesorios.html" class="nav-link">Accesorios</a>
-              </div>
-            </div>
-      </nav>
-      <br>
-     
-      <div class="container-fluid">
-        <img src="../IMAGENES/banner1.jpg" class="rounded mx-auto d-block" alt="Responsive image" height="570px" width="1000px";>
-    
+      <!--TARJETA NAV-->
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+          <!-- contenido de la nav -->
+            <li class="nav-item"> 
+              <a href="polerones.html" class="nav-link">Polerones</a>
+            </li>
+            <li class="nav-item">
+              <a href="camisas.html" class="nav-link active">Camisas</a>
+            </li>
+            <li class="nav-item">
+              <a href="arneces.html" class="nav-link">Arneses</a>
+            </li> 
+            <li class="nav-item">
+              <a href="accesorios.html" class="nav-link">Accesorios</a>
+            </li>  
+          </ul>
+        </div>
+      
+      <!-- tarjeta contenido -->  
+      <div class="card-body">
+        <div class="container-fluid" >
+          <div>
+            <div class="w-100 mb-5">
+                <h2 class="col-8 py-3 text-end display-5">
+                    CAMISAS
+                </h2>
+                <!--PRIMERA IMAGEN-->
+                <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                      <img src="../IMAGENES/poleron1.jpg" alt="Harry" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-tittle">Poleron 1</h5>
+                        <p class="card-text">Poleron numero 1</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                      <img src="../IMAGENES/poleronmodelo.jpg" alt="Harry" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-tittle">Poleron 2</h5>
+                        <p class="card-text">Poleron numero 2</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                      <img src="../IMAGENES/poleron2.jpg" alt="Harry" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-tittle">Poleron 3</h5>
+                        <p class="card-text">Poleron numero 3</p>
+                      </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+        </div>
+     </div>
     
       </div>
     </div> 
