@@ -14,11 +14,6 @@ h1{
     color: gold;
 }
 
-borderletra{
-    text-decoration: double;
-    border: black;
-    border-radius: 5px;
-}
 /* NAVBAR */
 .navbar-brand > img {
     width: 84px;
@@ -73,8 +68,36 @@ borderletra{
 }
 .portfolio-item:hover > img {
     transform: scale(0.96);
+    filter: opacity(0.9);
 }
 
+
+/*card*/
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.navtitle{
+    border: solid 5px #1d1d1c;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    transition: 0.5s filter;
+    background: linear-gradient(to right, #e2903e, #ffe259);  
+}
+
+.navtitle:hover{
+    transform: scale(1.10);
+    filter: opacity(0.7);
+}
 
 
 
@@ -105,7 +128,7 @@ borderletra{
     
 }
 
-.slide{
+.slidedog{
     position: absolute;
     top:0;
     bottom:0;
