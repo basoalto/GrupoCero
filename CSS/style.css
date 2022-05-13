@@ -94,6 +94,20 @@ h1{
     background: linear-gradient(to right, #e2903e, #ffe259);  
 }
 
+.navlogin:hover{
+    transform: scale(1.10);
+    filter: opacity(0.7);
+}
+
+.navlogin{
+    border: solid 5px #1d1d1c;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    transition: 0.5s filter;
+    background: linear-gradient(to left, #5eee6a, #20da74);   
+}
+
 .navtitle:hover{
     transform: scale(1.10);
     filter: opacity(0.7);
