@@ -13,6 +13,12 @@ a{
 h1{
     color: gold;
 }
+
+borderletra{
+    text-decoration: double;
+    border: black;
+    border-radius: 5px;
+}
 /* NAVBAR */
 .navbar-brand > img {
     width: 84px;
@@ -70,6 +76,10 @@ h1{
 }
 
 
+
+
+
+/* api */
 .app{
     height: 900px;
     width: 100%;
