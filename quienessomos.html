@@ -45,19 +45,31 @@
     </nav>
     <!-- Información de nosotros-->
     <br>
-    <form action="/action_page.php">
-      <div class="form-group">
-        <label for="email">Nombre completo del Dueno</label>
-        <input type="email" class="form-control" id="email">
-      </div>
-      <div class="form-group">
-        <label for="pwd">Nombre de la Mascota</label>
-        <input type="password" class="form-control" id="pwd">
-      </div>
-      <div class="checkbox">
-        <label><input type="checkbox">Requiere Servicio de medicion?</label>
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    <h2>Solicitud de Pedido</h2>
+
+<p>Recuerda marcar el ultimo item si necesitas que tomemos las medidas.</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <label for="fname">Nombre Completo:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Nombre de la Mascota:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br>
+    <label for="lname">Numero Contacto:</label><br>
+    <input type="text" id="lname" name="lname" id="phone" value="950622499"><br><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Requiere servicio de medicion?</label><br>
+  </fieldset>
+
+
+
+  <legend>Dejanos tus Comentarios</legend>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">.......</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+</form>
 </body>
 </html>
