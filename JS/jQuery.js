@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function(){
     $('#send').click(function() {
         if ($('#phone').val().length != 9 || isNaN($('#phone').val())) {
@@ -10,3 +11,16 @@ $(document).ready(function(){
         }
     });
 });
+=======
+
+/* LOGIN*/
+
+$(document).ready(
+    function()
+    {
+        /*ACA VA EL CODIGO*/
+
+
+    }
+)
+>>>>>>> 1b7c0a97a251a699cfed182a66909cb7a7d94776
